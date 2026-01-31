@@ -22,7 +22,7 @@ select * from employees order by sallary desc;
 -- limit: limit by number of values
 select * from employees limit 3; 
 
--- like: find pattern from values (%:anything)(a:f_name with a in last)
+-- like: find pattern from values (%:anything)(a:f_name with 'a' in last)
 select * from employees where f_name like '%a';
 -- has only two characters
 select * from employees where dept like '__';
